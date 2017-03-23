@@ -16,6 +16,10 @@ bot.on('message', (payload, reply) => {
     reply({ text: 'Stupid hoe:)' }, function(err) {
         if (err) console.log(err);
     });
+ reply({ text: 'MOrone:)' }, function(err) {
+        if (err) console.log(err);
+    });
+
 });
 
 let port = process.env.PORT || 3000;
