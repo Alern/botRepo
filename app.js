@@ -13,10 +13,10 @@ bot.on('error', (err) => {
 bot.on('message', (payload, reply) => {
     let text = payload.message.text;
 
-    reply({ text: 'Stupid hoe:)' }, function(err) {
+    reply({ text: 'Hello, I am an interactive bot :)' }, function(err) {
         if (err) console.log(err);
     });
- reply({ text: 'MOrone:)' }, function(err) {
+ reply({ text: 'i talk less though ;-)' }, function(err) {
         if (err) console.log(err);
     });
 
